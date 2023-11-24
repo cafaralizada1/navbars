@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    nav {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+        .myDiv{
+            .list{
+                li{
+                    a{
+                        color: #fff !important; 
+            font-weight: 800;
+                    }
+                }
+            }
+        }
+        .list li a:hover {
+            color: red;
+            transition: 0.5s;
+        }
+    }
+}
